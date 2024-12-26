@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- HEADER-->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skils">Skils</a>
+            <a href="#contact">Contact</a>       
+        </nav>
+    </header>
+
+    <!-- HOME SECTION-->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>HI, I'm</h3>
+        <h1>Mohamed Imghri</h1>
+        <h3>And I'm a <span>Application Developer</span></h3>
+        <p>I am an application developer with a passion for creating efficient and user-friendly software solutions. I specialize in designing and building applications that cater to various needs, whether for individuals, teams, or businesses.</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/mohamed-imghri-b6a251342/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mohameed.im/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/mohamedimghri"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/talwatt"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <a href="document/cv mohamed imghri.pdf"  class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="image/photo-1.jpg" alt="">
+    </div>
+</section>
+    <!-- ABOUT SECTION-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="image/photo-2.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">Aout <span>Me</span></h2>
+        <h3>Application Developer</h3>
+        <p>I am an application developer with a passion for creating efficient and user-friendly software solutions. I specialize in designing and building applications that cater to various needs, whether for individuals, teams, or businesses. With a strong foundation in programming and problem-solving, I thrive on turning complex ideas into functional, intuitive, and visually appealing applications. My goal is to deliver high-quality solutions that enhance productivity and make everyday tasks easier for users.</p>
+    </div>
+</section>
+<!-- SKILS SECTION-->
+<section class="skils" id="skils">
+    <h2 class="heading">My <span>Skils</span></h2>
+    <div class="skils-container">
+        <div class="skils-box">
+            <i class="fa-brands fa-java"></i>
+            <h3>Java</h3>
+            <p>Java is a high-level, object-oriented, and platform-independent programming language developed by Sun Microsystems  in 1995.</p>
+            <a href="https://www.java.com/en/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-flutter"></i>
+            <h3>Flutter</h3>
+            <p>Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile , web, and desktop from a single codebase</p>
+            <a href="https://flutter.dev/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-android"></i>
+            <h3>Android Studio</h3>
+            <p>Android Studio is the official Integrated Development Environment (IDE) for Android app development, developed by Google</p>
+            <a href="https://developer.android.com/studio" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-git"></i>
+            <h3>git/Github</h3>
+            <p>Git and GitHub are fundamental tools in modern software development, enabling efficient version control, collaboration, and project management.</p>
+            <a href="https://git-scm.com/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-swift"></i>
+            <h3>Swift</h3>
+            <p>Swift is a powerful and intuitive programming language developed by Apple Inc. in 2014</p>
+            <a href="https://developer.apple.com/swift/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-js"></i>
+            <h3>Javascript</h3>
+            <p>JavaScript (JS) is a high-level, interpreted programming language that is widely used for making web pages interactive</p>
+            <a href="https://www.javascripttutorial.net/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-html5"></i>
+            <h3>Html</h3>
+            <p>HTML (HyperText Markup Language) is the standard markup language used to create and structure content on the web</p>
+            <a href="https://html.com/" class="btn">Read More</a>
+        </div>
+        <div class="skils-box">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>css</h3>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation  of a web page written in HTML or XML.</p>
+            <a href="https://web.dev/css" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<!-- SKILS SECTION-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://formsubmit.co/mohamedimghri06@gmail.com" method="POST"  >
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" name="name" required>
+            <input type="email" placeholder="Email" name="email" required>
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number" name="phoneNumber" required>
+            <input type="text" placeholder="Email Subject" name="subject" required>
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!-- SKILS SECTION-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @mohamed-imghri || ALL Right Reserved || <i class="fa-solid fa-location-dot"></i>Agadir,Morocco || <i class="fa-solid fa-envelope"></i> mohamedimghri06@gmail.com || <i class="fa-solid fa-phone"></i> 0607475432</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
